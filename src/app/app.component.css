@@ -1,0 +1,38 @@
+nav a {
+  font-size: 18px;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin-top: 2px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  width: 140px;
+
+
+}
+nav a:visited, a:link {
+  color: #334953;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+nav a.active {
+  color: #5F9EA0;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+
+
+
