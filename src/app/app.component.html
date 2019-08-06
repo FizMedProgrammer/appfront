@@ -1,9 +1,15 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<img src="assets/logo.jpg" alt="LogoImageError">
-<hr size="2px" width="100%">
 
-<div class="row">
-  <div class="column" >
+<div class="container">
+
+  <div class="header">
+  <img src="logo.jpg" alt="LogoImageError">
+  <hr size="2px" width="100%">
+  </div>
+
+
+<div class="row-for-coulmns">
+  <div class="clearfix">
+  <div class="column left" >
     <nav>
       <li><a routerLink="/basic">Basic</a></li>
       <li><a routerLink="/user-profile">User Profile</a></li>
@@ -15,11 +21,21 @@
     </nav>
   </div>
 
-  <div class="column">
+  <div class="column right">
     <router-outlet></router-outlet>
   </div>
+</div>
 
 </div>
+
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</div>
+
+
+
 
 
 

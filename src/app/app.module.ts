@@ -18,6 +18,7 @@ import { GroupCreatorComponent } from './group-creator/group-creator.component';
 import { CategoryCreatorComponent } from './category-creator/category-creator.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { PublicationsComponent } from './publications/publications.component';
+import { BasicVisualizationComponent } from './basic-visualization/basic-visualization.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PublicationsComponent } from './publications/publications.component';
     GroupCreatorComponent,
     CategoryCreatorComponent,
     UserProfileComponent,
-    PublicationsComponent
+    PublicationsComponent,
+    BasicVisualizationComponent
   ],
   imports: [
     BrowserModule,

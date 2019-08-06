@@ -8,6 +8,7 @@ import { DataVisualizationComponent } from './data-visualization/data-visualizat
 import { StatisticAnalysisComponent } from './statistic-analysis/statistic-analysis.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { PublicationsComponent } from './publications/publications.component';
+import {BasicVisualizationComponent} from './basic-visualization/basic-visualization.component';
 
 
 
@@ -15,6 +16,7 @@ import { PublicationsComponent } from './publications/publications.component';
 const routes: Routes = [
 { path: '', redirectTo: '/basic', pathMatch: 'full' },
 { path: 'basic', component: BasicComponent },
+{ path: 'basic/visualization', component: BasicVisualizationComponent },
 { path: 'user-profile', component: UserProfileComponent },
 { path: 'data-import', component: DataImportComponent },
 { path: 'data-manipulation', component: DataManipulationComponent },
