@@ -1,8 +1,19 @@
 <div class="margin">
-  <input class="toolbar">
-    <button>Import Csv File</button>
-    <button>Create chart</button>
-  </div>
+  <form enctype="multipart/form-data" method="post">
+    <div>
+      <label for="picked">Choose file to upload</label>
+      <div>
+        <input  type="file" id="picked" #picked
+               (change)="onPicked(picked)">
+
+        <button style="margin:10px;" (click)="createChart()">Create chart</button>
+      </div>
+    </div>
+
+  </form>
 </div>
+
+
+
 
 

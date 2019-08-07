@@ -9,6 +9,12 @@ export class BasicVisualizationComponent implements OnInit {
 
   constructor() { }
 
+  onPicked(input: HTMLInputElement) {
+
+   }
+
+   createChart(){}
+
   ngOnInit() {
   }
 
