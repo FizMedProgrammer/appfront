@@ -1,4 +1,14 @@
 
 <div class="margin">
+  <div>
+    <app-uploader></app-uploader>
+
+  </div>
+  <div>
+    <button style="margin:20px;" (click)="displayAsTable(picked)">Display as a table</button>
+    <button style="margin:0px;" (click)="saveFile(picked)">Save File</button>
+  </div>
+
 
 </div>
+<app-table-with-data></app-table-with-data>

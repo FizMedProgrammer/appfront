@@ -1,3 +1,10 @@
 <div class="margin">
-
+  <div class="line"><app-collapse-menu-file></app-collapse-menu-file></div>
+  <div class="line"><app-collapse-menu-category></app-collapse-menu-category></div>
+  <div class="line"><app-collapse-menu-group></app-collapse-menu-group></div>
+  <div class="line"><button (click)="saveSettings(file,category,group)">Save settings</button></div>
+  <div class="line">
+    <app-category-creator></app-category-creator>
+    <app-group-creator></app-group-creator>
+  </div>
 </div>

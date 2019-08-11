@@ -9,6 +9,16 @@ export class DataImportComponent implements OnInit {
 
   constructor() { }
 
+    onPicked(input: HTMLInputElement) {
+
+     }
+
+     saveFile(picked){
+     }
+
+     displayAsTable(picked){
+     }
+
   ngOnInit() {
   }
 

@@ -1,0 +1,11 @@
+<div>
+  <div class="description">
+  <label>Share to group:</label>
+  </div>
+  <select (change)="filterGroup($event.target.value)">
+    <option value="0">-----None-----</option>
+    <option *ngFor="let group of groups" value={{summary}}>
+      {{group}}
+    </option>
+  </select>
+</div>

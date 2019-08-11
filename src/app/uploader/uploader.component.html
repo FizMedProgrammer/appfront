@@ -1,1 +1,9 @@
-<p>uploader works!</p>
+<form enctype="multipart/form-data" method="post">
+  <div>
+    <label for="picked">Choose file to upload</label>
+    <div class="space">
+      <input type="file" id="picked" #picked
+             (change)="onPicked(picked)">
+    </div>
+  </div>
+</form>

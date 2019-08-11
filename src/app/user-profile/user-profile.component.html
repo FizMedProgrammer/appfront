@@ -1,5 +1,24 @@
 
 <div class="margin">
- <p>trzeci w kolejnosci do uzupełnienia</p>
+<div >
+  <h3>Create groups and categories and manage uploaded data</h3>
+  <p>Groups you already created:</p>
+  <ul>
+    <li *ngFor="let category of categories">
+      {{ createdGroups.name }}
+    </li>
+  </ul>
+  <p> Categories you have created:</p>
+  <ul>
+    <li *ngFor="let category of categories">
+      {{ createdCategories.name }}
+    </li>
+  </ul>
+</div>
+<div class="right">
+  <app-group-creator></app-group-creator>
+  <app-category-creator></app-category-creator>
+
+</div>
 </div>
 

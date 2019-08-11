@@ -19,6 +19,14 @@ import { CategoryCreatorComponent } from './category-creator/category-creator.co
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { BasicVisualizationComponent } from './basic-visualization/basic-visualization.component';
+import { ChartCreatorComponent } from './chart-creator/chart-creator.component';
+import { TableWithDataComponent } from './table-with-data/table-with-data.component';
+import { CollapseMenuCategoryComponent } from './collapse-menu-category/collapse-menu-category.component';
+import { CollapseMenuGroupComponent } from './collapse-menu-group/collapse-menu-group.component';
+import { CollapseMenuFileComponent } from './collapse-menu-file/collapse-menu-file.component';
+import { ChartComponent } from './chart/chart.component';
+import { DescriptionComponent } from './description/description.component';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +43,15 @@ import { BasicVisualizationComponent } from './basic-visualization/basic-visuali
     CategoryCreatorComponent,
     UserProfileComponent,
     PublicationsComponent,
-    BasicVisualizationComponent
+    BasicVisualizationComponent,
+    ChartCreatorComponent,
+    TableWithDataComponent,
+    CollapseMenuCategoryComponent,
+    CollapseMenuGroupComponent,
+    CollapseMenuFileComponent,
+    ChartComponent,
+    DescriptionComponent,
+
   ],
   imports: [
     BrowserModule,

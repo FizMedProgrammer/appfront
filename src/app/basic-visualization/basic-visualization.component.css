@@ -1,0 +1,9 @@
+div{
+display: inline-block;
+}
+
+input[type="file"]{
+   -webkit-appearance: none;
+   text-align: left;
+   -webkit-rtl-ordering:  left;
+}

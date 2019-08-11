@@ -1,0 +1,10 @@
+.line{
+display: inline-block;
+margin-right: 10px;
+}
+
+
+.down{
+vertical-align: bottom;
+  position: absolute;
+}

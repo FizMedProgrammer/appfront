@@ -1,17 +1,10 @@
 <div class="margin">
-  <form enctype="multipart/form-data" method="post">
-    <div>
-      <label for="picked">Choose file to upload</label>
-      <div>
-        <input  type="file" id="picked" #picked
-               (change)="onPicked(picked)">
+  <div><app-uploader></app-uploader></div>
+  <div><app-chart-creator></app-chart-creator></div>
 
-        <button style="margin:10px;" (click)="createChart()">Create chart</button>
-      </div>
-    </div>
-
-  </form>
 </div>
+
+
 
 
 

@@ -8,7 +8,7 @@ import { DataVisualizationComponent } from './data-visualization/data-visualizat
 import { StatisticAnalysisComponent } from './statistic-analysis/statistic-analysis.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { PublicationsComponent } from './publications/publications.component';
-import {BasicVisualizationComponent} from './basic-visualization/basic-visualization.component';
+import { BasicVisualizationComponent} from './basic-visualization/basic-visualization.component';
 
 
 
